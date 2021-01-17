@@ -546,10 +546,7 @@ h1, h2, h3, h4, h5, h6 {
 .about img{  border: 3px solid #000; 
               border-radius: 20px; }
 
-
-
-
-
+ 
 
 
 .about .content ul i {
@@ -571,10 +568,14 @@ color:black}
 
 .services { background-image: url("../img/juegos.jpg");
   background-repeat: no-repeat;
-  background-size: auto}
+  background-position: right;
+  background-size: 50rem ;
+  
+       }
 
 .services .icon-box {
-  text-align: center;
+  text-align:center;
+  width: 400px;
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
   background: rgb(240, 206, 144);
@@ -628,6 +629,10 @@ color:black}
   color: #fff;
   background: goldenrod;
 }
+
+
+
+
 
 
 .portfolio .portfolio-item {
@@ -916,9 +921,15 @@ color:black}
   margin-left: 8px;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+
+
+
+
+.contact p {color: black;}
+
+.contact h2 {color: black;}
+
+
 .contact .info {
   padding: 30px;
   width: 100%;
