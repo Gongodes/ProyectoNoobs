@@ -50,7 +50,7 @@
             <li><a href="#auto">AUTOCUIDADO</a></li>
             <li><a href="#serv">SERVICIOS</a></li>
 
-            <li><a href="#contact">CONTÁCTANOS</a></li>
+            <li><a href="#contact">CONTÁCTENOS</a></li>
 
 
           </ul>
@@ -63,23 +63,26 @@
     <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
       <h1>UN ESPACIO PARA INFORMARSE Y RECREARSE</h1>
       <h2>ESTAMOS PARA ACOMPAÑARLE Y SER SU ALIADO TECNOLÓGICO</h2>
-      <a href="#noticias" class="btn-get-started scrollto">INICIE SU VIAJE EN EL NUEVO SIGLO</a>
+      <a href="#noticias" class="btn-get-started scrollto">INICIE SU VIAJE EN EL SIGLO XXI</a>
     </div>
   </section>
   
   <main style="text-align: center;" >
-    <h2 style="color: black;">Deja tu mensaje aca</h2>
+    <h2 style="color: black;">DEJE SU MENSAJE AQUÍ</h2>
   <form>
   <textarea rows="10" cols="20"></textarea><br>
    
   
  
-  <button type="submit" class="btn btn-primary">Enviar</button>
+  <button type="submit" class="btn btn-primary">ENVIAR</button>
 </form>
     </main>
     
     <footer>        
-        <p>© 2021 Comunidad A.M.</p> 
+        <p> 2021 Comunidad A.M.</p>
+        <p>NOOBS INC.</p>
+        <p>Todos los Derechos Reservados ©</p>
+
     </footer>
 </body>
 </html>
