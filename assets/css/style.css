@@ -551,18 +551,12 @@ section {
 
 
 
-.about  a {
-  color:white;
-  font-size: x-large;
-}
+.about img{  border: 3px solid #000; 
+              border-radius: 20px; }
 
 
 
 
-.about a:hover  {
-  color: goldenrod;
-   
-}
 
 
 
