@@ -69,7 +69,35 @@
   
   <main>
     
-  
+    <%   %>
+    
+        <table class="table table-hover">
+            <tr>
+                <th><strong>Nombre / Sobrenombre</strong></th>
+                
+                <th><strong>Mensaje</strong></th> 
+                
+                <th><strong>Elminar y Modificar Usuario</strong></th>
+            </tr>
+            <c:forEach var="am" items="${mensajes}">
+            <tr>
+                <td><c:out value="${am.getRun()}"></c:out></td>
+                <td><c:out value="${am.getNombre()}"></c:out></td>
+                <td><c:out value="${am.getTipo()}"></c:out></td>
+                <td> <a href="editaradministrativo.html"> <img id="imgeditar" src="view/img/editar.png" title="editar"></a>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <img id="imgeliminar" title="eliminar" src="view/img/eliminar.png"> </td>
+            </tr>
+            
+            </c:forEach>
+            
+            
+            
+            
+        </table>
+
     </main>
     
     <footer>        

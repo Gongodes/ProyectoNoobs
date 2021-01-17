@@ -46,7 +46,7 @@
             <li><a href="#noticias">MUNDO AL DÍA</a></li>
             <li><a href="#services">TIEMPO LIBRE</a></li>
             <li><a href="#portfolio">MÚSICA</a></li>
-            <li><a href="#foro">FORO</a></li>
+            <li><a href="#team">FORO</a></li>
             <li><a href="#auto">AUTOCUIDADO</a></li>
             <li><a href="#serv">SERVICIOS</a></li>
             <li><a href="#contact">CONTÁCTENOS</a></li>
@@ -151,7 +151,7 @@
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                   <div class="icon"><i class="bx bxs-chess"></i></div>
                   <h4><a href="https://www.chess.com/es/play/online">AJEDREZ</a></h4>
-                  <p>ENTRE AQUÍ Y PRACTIQUE ESTRATEGIAS JUGANDO AJEDREZ </p>
+                  <p>ENTRE AQUÍ Y PRACTIQUE SU ESTRATEGIA JUGANDO AJEDREZ </p>
                 </div>
               </div>
 
@@ -433,7 +433,7 @@
 
           <br><br><br> <br><br><br>
 
-        <form action="Login"  method="post" id="basic-form" id="formlog" class="form-container"
+        <form action="ControllerLogin"  method="post" id="basic-form" id="formlog" class="form-container"
         method="post" name="Validalogin">
         <div class="form-group">
           <h4 style="color: black;" class="text-center font-weight-bold">LOGIN</h4>
@@ -442,7 +442,7 @@
         </div>
         <div class="form-group">
           <label for="InputPassword1">CLAVE</label> 
-          <input type="password" class="form-control" name="pass" required>
+          <input type="password" class="form-control" name="password" required>
         </div>
         <button type="submit" 
           class="btn btn-primary btn-block">ENTRAR</button>
@@ -725,11 +725,6 @@
 
   <script src="assets/js/main.js"></script>
 
-
-
-  <footer>        
-    <p>© 2021 Comunidad A.M.</p> 
-</footer>
 </body>
 
 </html>

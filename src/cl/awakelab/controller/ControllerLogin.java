@@ -29,7 +29,7 @@ public class ControllerLogin extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		getServletContext().getRequestDispatcher("/view/login.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
 	}
 
 	/**
@@ -40,19 +40,19 @@ public class ControllerLogin extends HttpServlet {
 		String d_usr = "admin";
 		String d_pdw = "1234";
 		
-		if (d_usr.equals(request.getParameter("rut")) &&  d_pdw.equals(request.getParameter("password"))) {
+		if (d_usr.equals(request.getParameter("user")) &&  d_pdw.equals(request.getParameter("password"))) {
 			System.out.println("Usuario autenticado... creando sesion");
 			 
 			HttpSession sesion = request.getSession(true);
 			 
-			sesion.setAttribute("rut", request.getParameter("rut"));
+			sesion.setAttribute("user", request.getParameter("user"));
 			
 			getServletContext().getRequestDispatcher("/ControllerForo").forward(request, response);
 			
 		} else {
 			
-			System.out.println("RUT no existe: usr:" +  request.getParameter("usr") + " pwd: " + request.getParameter("pwd"));
-			getServletContext().getRequestDispatcher("/view/index.jsp").forward(request, response);
+			System.out.println("Admin no existe: usr:" +  request.getParameter("user") + " pwd: " + request.getParameter("password"));
+			getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
 		}
 	}
 

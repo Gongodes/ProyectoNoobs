@@ -40,7 +40,7 @@ public class ControllerForo extends HttpServlet {
 		
 		if (usuario == null) {
 			
-			getServletContext().getRequestDispatcher("/ControllerLogin").forward(request, response);
+			getServletContext().getRequestDispatcher("/ControllerIndex").forward(request, response);
 			
 		}
 				
@@ -52,7 +52,7 @@ public class ControllerForo extends HttpServlet {
 			
 			request.setAttribute("mensajes", listaUsr);
 			
-			getServletContext().getRequestDispatcher("/view/foro.jsp").forward(request, response);
+			getServletContext().getRequestDispatcher("/foro.jsp").forward(request, response);
 			
 		}
 	}
