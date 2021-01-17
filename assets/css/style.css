@@ -509,59 +509,83 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*--------------------------------------------------------------
-# About
+# Noticias
 --------------------------------------------------------------*/
-.about {background-image: url("../img/Diarios.jpg") ;
-  background-repeat: no-repeat;
-  background-color: rgb(240, 206, 144);
-  color: white}
-.about .content h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
 
-.about .content h3 {
-  font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
-}
+.noticias .icon { background-color: white;
+  color:black}
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
+  .noticias img{  border: 3px solid #000; 
+    border-radius: 20px; }
   
-}
+  .noticias { background-image: url("../img/Diarios.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50rem ;
+    
+         }
+  
+  .noticias .icon-box {
+    text-align:center;
+    width: 400px;
+    padding: 40px 20px;
+    transition: all ease-in-out 0.3s;
+    background: rgb(240, 206, 144);
+  }
+  
+  .noticias .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+    color: black;
+  }
+  
+  .noticias .icon-box .icon i {
+    font-size: 28px;
+  }
+  
+  .noticias .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .noticias .icon-box h4 a {
+    color: #36343a;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .noticias .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .noticias .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .noticias .icon-box:hover h4 a {
+    color: white;
+  }
+  
+  .noticias .icon-box:hover .icon {
+    color: #fff;
+    background: goldenrod;
+  }
+  
 
-
-
-
-.about img{  border: 3px solid #000; 
-              border-radius: 20px; }
-
- 
-
-
-.about .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: white;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-
-
+/*--------------------------------------------------------------
+#  Juegos
+--------------------------------------------------------------*/
 
 .services .icon { background-color: white;
 color:black}
