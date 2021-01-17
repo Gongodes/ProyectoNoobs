@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009970;
+  color: goldenrod;
   text-decoration: none;
 }
 
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .get-started a:hover {
-  background: #00c28e;
+  background: goldenrod;
   color: #fff;
 }
 
@@ -429,8 +429,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #009970;
-  border: 2px solid #009970;
+  background: goldenrod;
+  border: 2px solid goldenrod;
 }
 
 @media (min-width: 1024px) {
