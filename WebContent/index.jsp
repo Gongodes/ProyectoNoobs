@@ -433,7 +433,7 @@
 
           <br><br><br> <br><br><br>
 
-        <form action="ControllerLogin"  method="post" id="basic-form" id="formlog" class="form-container"
+        <form action="ControllerLogin"   id="basic-form" id="formlog" class="form-container"
         method="post" name="Validalogin">
         <div class="form-group">
           <h4 style="color: black;" class="text-center font-weight-bold">LOGIN</h4>

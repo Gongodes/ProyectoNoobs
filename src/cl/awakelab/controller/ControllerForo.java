@@ -11,8 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-import cl.awakelab.implementation.AdultoDAOImpl;
-import cl.awakelab.model.Useram;
+
 
 
 /**
@@ -35,26 +34,15 @@ public class ControllerForo extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		HttpSession sesion = request.getSession();
-		Object usuario = (String) sesion.getAttribute("rut");
+	
+		getServletContext().getRequestDispatcher("/foro.jsp").forward(request, response);
 		
-		if (usuario == null) {
-			
-			getServletContext().getRequestDispatcher("/ControllerIndex").forward(request, response);
-			
-		}
-				
-		else {
-			
-			AdultoDAOImpl usr = new AdultoDAOImpl();
-			
-			List<Useram> listaUsr = usr.readAll();
-			
-			request.setAttribute("mensajes", listaUsr);
-			
-			getServletContext().getRequestDispatcher("/foro.jsp").forward(request, response);
-			
-		}
+		
+		
+		
+		
+		
+		
 	}
 
 	/**
