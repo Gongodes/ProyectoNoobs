@@ -46,7 +46,7 @@
             <li><a href="#noticias">MUNDO AL DÍA</a></li>
             <li><a href="#services">TIEMPO LIBRE</a></li>
             <li><a href="#portfolio">MÚSICA</a></li>
-            <li><a href="#team">FORO</a></li>
+            <li><a href="#foro">FORO</a></li>
             <li><a href="#auto">AUTOCUIDADO</a></li>
             <li><a href="#serv">SERVICIOS</a></li>
             <li><a href="#contact">CONTÁCTENOS</a></li>
@@ -433,7 +433,7 @@
 
           <br><br><br> <br><br><br>
 
-        <form action="ControllerLogin"   id="basic-form" id="formlog" class="form-container"
+        <form action="Login"  method="post" id="basic-form" id="formlog" class="form-container"
         method="post" name="Validalogin">
         <div class="form-group">
           <h4 style="color: black;" class="text-center font-weight-bold">LOGIN</h4>
@@ -442,7 +442,7 @@
         </div>
         <div class="form-group">
           <label for="InputPassword1">CLAVE</label> 
-          <input type="password" class="form-control" name="password" required>
+          <input type="password" class="form-control" name="pass" required>
         </div>
         <button type="submit" 
           class="btn btn-primary btn-block">ENTRAR</button>
