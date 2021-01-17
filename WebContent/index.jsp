@@ -725,6 +725,11 @@
 
   <script src="assets/js/main.js"></script>
 
+
+
+  <footer>        
+    <p>© 2021 Comunidad A.M.</p> 
+</footer>
 </body>
 
 </html>
