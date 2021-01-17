@@ -504,6 +504,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.noticias h2 {
+  color:#000000;
+}
+
+.noticias p {
+  color:#000000;
+}
+
 
 
 .noticias .icon { background-color: white;
@@ -588,6 +596,14 @@ color:black}
   background-size: 50rem ;
   
        }
+
+.services h2 {
+  color:#000000;
+}
+
+.services p {
+  color:#000000;
+}
 
 .services .icon-box {
   text-align:center;
