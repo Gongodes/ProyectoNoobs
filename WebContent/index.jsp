@@ -151,7 +151,7 @@
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                   <div class="icon"><i class="bx bxs-chess"></i></div>
                   <h4><a href="https://www.chess.com/es/play/online">AJEDREZ</a></h4>
-                  <p>ENTRE AQUÍ Y PRACTIQUE SU ESTRATEGIA JUGANDO AJEDREZ </p>
+                  <p>ENTRE AQUÍ Y PRACTIQUE ESTRATEGIAS JUGANDO AJEDREZ </p>
                 </div>
               </div>
 
