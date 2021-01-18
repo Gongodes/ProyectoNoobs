@@ -126,7 +126,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>cl.noob.ControllerIndex</mainClass>
+            <mainClass>src\main\java\cl\noob\web\ControllerIndex</mainClass>
           </manifest>
         </archive>
       </configuration>
