@@ -1,1 +1,1 @@
-java -jar target/dependency/webapp-runner.jar target/*.war
+web: java -cp target/classes/:target/dependency/* cl.noob.web.ControllerIndex
