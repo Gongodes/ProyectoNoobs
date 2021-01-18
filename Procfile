@@ -1,4 +1,5 @@
-web: java -Dserver.port=$PORT -jar target/demo-0.0.1-SNAPSHOT.jar
+$ java -jar target/dependency/webapp-runner.jar --session_manager memcache target/*.war
+
 
 
 
