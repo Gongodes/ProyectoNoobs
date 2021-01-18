@@ -104,9 +104,9 @@
                     <configuration>
                         <artifactItems>
                             <artifactItem>
-                                <groupId>com.heroku</groupId>
-                                <artifactId>webapp-runner</artifactId>
-                                <version>9.0.41.0</version>
+                                <groupId>cl.noob</groupId>
+                                <artifactId>web</artifactId>
+                                <version>0.0.1-SNAPSHOT</version>
                                 <destFileName>webapp-runner.jar</destFileName>
                             </artifactItem>
                         </artifactItems>
