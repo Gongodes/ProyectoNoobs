@@ -42,15 +42,8 @@
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="#header">INICIO</a></li>
-            <li><a href="#noticias">MUNDO AL DÍA</a></li>
-            <li><a href="#services">TIEMPO LIBRE</a></li>
-            <li><a href="#portfolio">MÚSICA</a></li>
-            <li><a href="#team">FORO</a></li>
-            <li><a href="#auto">AUTOCUIDADO</a></li>
-            <li><a href="#serv">SERVICIOS</a></li>
-
-            <li><a href="#contact">CONTÁCTENOS</a></li>
+            <li class="active"><a href="ControllerIndex"><h1>Volver</h1></a></li>
+            
 
 
           </ul>

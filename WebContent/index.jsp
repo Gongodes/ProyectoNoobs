@@ -426,8 +426,8 @@
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
-              <h2>FORO</h2>
-              <p>INGRESE CON SU USUARIO</p>
+              <h2 style="color: black;" >FORO</h2>
+              <p style="color:black;"  >INGRESE CON SU USUARIO</p>
             </div>
           </div>
 
@@ -448,12 +448,7 @@
           class="btn btn-primary btn-block">ENTRAR</button>
         
         
-        <div class="form-footer">
-          <p>
-            ¿NO TIENE UNA CUENTA DE USUARIO? <a href="CrearUsuario">CREAR USUARIO</a>
-          </p>
-
-        </div>
+        
       </form>
 
       </div>

@@ -1,7 +1,1 @@
-web: java -jar $JAVA_OPTS -Dserver.port=$PORT target/web-0.0.1-SNAPSHOT.jar --server.port=${PORT:8080}
-
-
-
-
-
-
+web: java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
