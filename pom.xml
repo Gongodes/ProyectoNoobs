@@ -39,14 +39,7 @@
   </dependencies>
 
   <build>
-   
-
-////
-
-
-
-
-
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
@@ -88,35 +81,17 @@
           <version>3.0.0</version>
         </plugin>
         
-        <plugin>
-       <groupId>org.codehaus.mojo</groupId>
-       <artifactId>exec-maven-plugin</artifactId>
-       <version>${org.codehaus.mojo.version}</version>
-       <executions>
-          <execution>
-               <id>script-chmod</id>
-               <phase>install</phase>
-               <goals>
-                   <goal>exec</goal>
-               </goals>
-               <configuration>
-                   <executable>chmod</executable>
-                   <arguments>
-                       <argument>+x</argument>
-                       <argument>your-assembled-jar.jar</argument>
-                   </arguments>
-               </configuration>
-           </execution>
-       </executions>
-       
-       
-       
-          
-       
-       
-       
-</plugin>
-        
+   
+         <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
+                    <warName>cl.noob</warName>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
         
         
          <plugin>
@@ -140,18 +115,9 @@
             </executions>
         </plugin>
         
-         <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
-                    <warName>cl.noob</warName>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
+        
         
       </plugins>
-    
+    </pluginManagement>
   </build>
 </project>
