@@ -98,6 +98,12 @@
                        <argument>+x</argument>
                        <argument>your-assembled-jar.jar</argument>
                    </arguments>
+
+ <processTypes>
+     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+  </processTypes>
+
+
                </configuration>
            </execution>
        </executions>
