@@ -28,12 +28,7 @@
     <scope>provided</scope>
 </dependency>
 
-  <dependency>
-  <groupId>com.heroku</groupId>
-  <artifactId>webapp-runner</artifactId>
-  <version>8.5.11.3</version>
-  <scope>provided</scope>
-</dependency>
+ 
   
     <dependency>
       <groupId>junit</groupId>
@@ -143,21 +138,7 @@
         </executions>
     </plugin>
         
-         <plugin>
-      <!-- Build an executable JAR -->
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-jar-plugin</artifactId>
-      <version>3.1.0</version>
-      <configuration>
-        <archive>
-          <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>cl.noob.web.ControllerIndex</mainClass>
-          </manifest>
-        </archive>
-      </configuration>
-    </plugin>
+      
         
       </plugins>
     </pluginManagement>
