@@ -1,4 +1,4 @@
-package cl.weekendcode.controller;
+package cl.awakelab.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
