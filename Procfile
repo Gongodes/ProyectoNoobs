@@ -1,1 +1,1 @@
-web: java -cp target/classes/;target/dependency/* cl.noob.web.ControllerIndex
+web: java $JAVA_OPTS -jar target/dependency/web-0.0.1-SNAPSHOT.jar --port $PORT target/*.war
